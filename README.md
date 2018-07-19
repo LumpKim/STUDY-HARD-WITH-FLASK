@@ -12,14 +12,19 @@
 - Flask RESTful을 이용한 API 구현
 - Flask JWT 및 Werkzeug를 이용한 보안접속 구현
 - 파일 업로드/다운로드가 편리한 파일 클라우드 구축
+- MongoDB를 이용한 로그인 구현
+- 게시판 구현
 
 ## 학습 주제
 - Flask_JWT 오류 해결
 - POSTMAN 사용법
 - Udemy 강의(REST APIs with Flask and python) 요약
 - Python 심화 문법
+- DB의 효율적인 운영 및 관리법
 
-# 학습 계획
+## 학습 계획
 - Response를 이용해 단일 서버에서 Flask와 Node.js 연동
 - 웹 크롤링 학습
 - REST API 구현 후 클라이언트와의 정보 교환
+
+## 폴더별 내용 및 
