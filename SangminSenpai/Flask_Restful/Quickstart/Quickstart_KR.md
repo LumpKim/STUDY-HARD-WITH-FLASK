@@ -1,6 +1,7 @@
 Flask-RESTful Documentation Summary
 ===================================
-- https://flask-restful.readthedocs.io/en/latest/quickstart.html를 참고함
+- https://flask-restful.readthedocs.io/en/latest/quickstart.html를 정리함
+- http://na27.tistory.com/230 를 참고함
 ## A Minimal API
 
 - 'api.py'를 실행한 상태에서 **curl http://127.0.0.1:5000/** 를 실행해 봅시다.
@@ -66,3 +67,13 @@ class Todo(Resource):
     def get(self, **kwargs):
         return TodoDao(todo_id='my_todo', task='Remember the milk')
 ```
+- 위의 예제에서는 파이썬 개체를 가져와 일련화할 준비를 합니다.
+- **marshal_with()** 데코레이터는 **resource_fields**에서 기술하는 변환을 적용합니다.
+
+## ETC...
+- fullExample.py
+- 파서랑 파싱이 뭘까요
+    - 파싱(Parsing): 데이터를 조립해 원하는 데이터를 빼내는 프로그램을 하는 것
+        - 컴퓨터 과학에서 일련의 문자열을 의미있는 token 으로 분해하고 그것들로 이루어진 Parse tree를 만드는 과정
+        - 어떤 data를 내가 원하는 porm으로 만들어 내는 것
+        - 프로그램을 컴파일 하는 과정에서 특정 프로그래밍 언어가 제시하는 문법을 잘 지켜서 작성하였는지 컴파일러가 검사하는 것
